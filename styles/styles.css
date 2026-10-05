@@ -1,0 +1,58 @@
+/* * {
+    border: 1px solid red;
+} */
+body {
+     
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    background-color: lightblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+   
+}
+/* navigation */
+header, footer {
+    background-color: lightgray;
+    padding: 20px;
+    padding: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: black;   
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: navy;  
+    background-color: white; 
+}
+main {
+     padding: 80px;
+}
+img {
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+p{
+    font-size: 1.5em;
+}
+
+#second {
+    font-size: 3em;
+}
+
+.emphasis {
+    color: purple;
+}
+.greentext {
+    color: green;
+}
